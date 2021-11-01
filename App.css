@@ -1,0 +1,20 @@
+.App {
+    width: 800px;
+    margin-top: 3rem;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.App .title {
+    padding: 10px;
+    background-color: #E24546;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.App .courses {
+    list-style-type: none;
+}

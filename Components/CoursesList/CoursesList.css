@@ -1,0 +1,35 @@
+.course {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.course .course_name {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #444;
+}
+
+.course .operations {
+    display: flex;
+}
+
+.course .operations button {
+    width: 150px;
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+.course .operations button:first-of-type {
+    background-color: #6A6A6A;
+    margin-right: 15px;
+}
+
+.course .operations button:last-of-type {
+    background-color: #D85250;
+}

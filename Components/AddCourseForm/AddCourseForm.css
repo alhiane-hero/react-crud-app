@@ -1,0 +1,29 @@
+form {
+    position: relative;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+form input[type='text'] {
+    width: calc(100% - 150px);
+    background-color: #eee;
+    font-weight: 500;
+    color: #444;
+}
+
+form input[type='submit'] {
+    width: 150px;
+    background-color: #4CC55D;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input {
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+}
+
+form input:focus {
+    outline: none;
+}
